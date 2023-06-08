@@ -8,6 +8,8 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    cursor: pointer;
+    background-color: rgb(64, 8, 106);
   }
   
   :root{
@@ -195,10 +197,12 @@ aside .sidebar a.active::before{
 
 aside .sidebar a:hover{
     color: rgb(15, 9, 9);
+    cursor: pointer;
 }
 
 aside .sidebar a:hover span{
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 aside .sidebar .message-count{
@@ -246,6 +250,7 @@ main .insights > div:hover{
     box-shadow: none;
     background-color: #7de4e4;
     color: black;
+    cursor: pointer;
     
 }
 
@@ -359,6 +364,8 @@ main .recent-order table{
 main .recent-order table:hover{
     box-shadow: none;
     background-color: #aceaea;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 main table tbody td{
@@ -417,7 +424,7 @@ main .recent-order a{
 }
 
 .right .theme-toggler span.active{
-    background-color: rgb(132,139,200,0.18);
+    background-color: rgba(173, 70, 187, 0.18);
     color: white;
     border-radius: 0.4rem;
 }
@@ -442,12 +449,16 @@ main .recent-order a{
     background-color: #fff;
     padding: 1.8rem;
     border-radius: 2rem;
-    box-shadow: 0 2rem 3rem rgb(132,139,200,0.18);
+    box-shadow: 0 2rem 3rem rgba(31, 35, 74, 0.18);
     transition: all 300ms ease;
 }
 
-.right .recent-updates .updates:hover{
+.right .recent-updates .update:hover{
     box-shadow: none;
+    background-color: #aceaea;
+    font-size: 1rem;
+    cursor: pointer;
+   
 }
 
 .right .recent-updates .updates .update{
@@ -475,12 +486,14 @@ main .recent-order a{
     margin-bottom: 0.7rem;
     padding: 1.4rem 1.8rem;
     border-radius: 1.2rem;
-    box-shadow: 0 2rem 3rem rgb(132,139,200,0.18);
+    box-shadow: 0 2rem 3rem rgba(96, 106, 192, 0.18);
     transition: all 300ms ease;
 }
 
 .right .sales-analytics .items:hover{
     box-shadow: none;
+    background-color: #aceaea;
+    cursor: pointer;
 }
 
 .right .sales-analytics .items .right{
